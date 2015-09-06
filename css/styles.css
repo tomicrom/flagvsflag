@@ -11,13 +11,14 @@ img {
 
 .nav {
 	height: 50px;
+	
 
 }
 .nav .row {
 	
 }
 .logo img {
-	width:56px;
+	width:38px;
 	height: auto;
 	padding-right: 5px;
 }
@@ -32,23 +33,27 @@ img {
 }
 
 .nav h1 {
+
 	font-weight: 400;
 	margin-bottom: 0;
+	text-align: center;
+	padding-top: 5px
 }
 .nav strong {
 	font-weight: 100;
 }
 
 .logo {
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 .nav ul {
 	text-align: right;
 	margin-bottom: 0;
 	padding-top: 5px;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 2rem;
+	color: #555;
 }
 
 .nav li {
@@ -56,9 +61,93 @@ img {
 	display: inline;
 	text-decoration: none;
 	text-align: justify; 
-	margin-left:20px;
+	margin-left:18px;
 	margin-top:auto;
 	vertical-align: center;
+	color: #555;
+
+}
+.navlinks {
+	display: none; 
+}
+
+.nav a {
+	text-decoration: none;
+	color:black;
+}
+
+.list a:hover {
+	text-decoration: none;
+	color:gray;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+.nav h1 {
+
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+.nav {
+	height: 50px;
+
+}
+.nav .row {
+	
+}
+.logo img {
+	height: auto;
+	padding-right: 5px;
+}
+.borde {
+	height: 3px;
+}
+.borde img {
+	width:100%;
+	height: 3px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.nav h1 {
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: left;
+	padding-top: 10px;
+}
+.nav strong {
+	font-weight: 100;
+}
+
+.navlinks {
+	display: inline; 
+}
+
+.nav ul {
+	text-align: right;
+	margin-bottom: 0;
+	padding-top: 5px;
+	font-weight: 400;
+	font-size: 2rem;
+	color: #555;
+}
+
+.nav li {
+
+	display: inline;
+	text-decoration: none;
+	text-align: justify; 
+	margin-left:18px;
+	margin-top:auto;
+	vertical-align: center;
+	color: #555;
 
 }
 
@@ -71,34 +160,79 @@ img {
 	text-decoration: none;
 	color:gray;
 }
+.navlinks {
+	visibility: none;
+	height: 36px;
+
+}
+}
+
+
+
+
+
+
+
 
 /*TITULO*/
 
 .bigtitle {
 	text-align: center;
-	margin-top: 4%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+
 
 }
 
 .bigtitle h2 {
 	font-weight: 400;
-	padding-top: 10px;
+	font-size: 3rem;
 }
 
-.bigtitle p {
-	font-weight: 400;
-	font-size: 2rem;
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+
+.bigtitle h2 {
+	font-size: 4rem;
 }
 
+}
 
 /*VERSUS*/
 
+.versus h3,h4{
+	font-weight: 400;
+}
 
 .versus img {
-	width: 100%;
-	max-width: 300px;
-	height: auto;
+	width: auto;
+	height: 150px;
 }
+
+.izq{
+	text-align: center;
+}
+
+.der {
+	text-align: center;
+}
+
+.versus h3 {
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+#vs {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1rem;
+	margin: 10px;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
 
 .izq{
 	text-align: right;
@@ -107,16 +241,20 @@ img {
 .der {
 	text-align: left;
 }
-
-.versus h3 {
-	text-transform: uppercase;
-	font-weight: 100;
+#vs {	
+	padding-top: 80%;
+	font-weight: 400;
 	font-size: 2rem;
 }
 
-#vs {	
-	padding-top: 80%;
+.versus img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
 }
+
+}
+
 
 /*footer*/
 
@@ -143,6 +281,12 @@ img {
 .button {
 	font-size: 16px;
 	font-weight: 400;
+	height: auto;
+
+
+}
+.grande {
+	display: none;
 }
 
 .pie img {
@@ -150,4 +294,40 @@ img {
     height:5px;
     bottom:0;
     margin: 0;
+}
+
+@media (min-width: 550px) {
+.grande {
+	display: inline-block;
+}
+
+.chico {
+	display: none;
+}
+
+
+}
+
+
+
+	 
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  margin-left: 0px;
+  margin-bottom: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+ul.share-buttons img {
+	width: 32px;
+	padding: 1%;
+	
+}
+
+table img {
+	width: auto;
+	height: 40px;
 }
