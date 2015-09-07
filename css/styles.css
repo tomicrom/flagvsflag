@@ -207,9 +207,8 @@ img {
 }
 
 .versus img {
-	width: auto;
-	height: 150px;
-}
+	max-width: 100%;
+	}
 
 .izq{
 	text-align: center;

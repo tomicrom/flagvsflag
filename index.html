@@ -99,7 +99,7 @@
     <div class="container"> 
       <div class="row">
         <div class="five columns izq" id="flag1">
-            <script>
+            <a href="" onclick="function()"><script>
              (function() {
                var allflags = [
                  {text: "Andorra" ,img: " images/flags/ad.png"},
@@ -302,15 +302,10 @@
                var flag1 = allflags[Math.floor(Math.random() * allflags.length)];
                document.getElementById("flag1").innerHTML =
                  '<p>' + flag1.text + '</p>' +
-                 '<img src="' + flag1.img + '">';
-
-               var flag2 = allflags[Math.floor(Math.random() * allflags.length)];
-               document.getElementById("flag2").innerHTML =
-                 '<p>' + flag2.text + '</p>' +
-                 '<img src="' + flag2.img + '">';
+                 '<a href="" onclick="function()"><img src="' + flag1.img + '"></a>';
 
              })();
-           </script>
+           </script></a>
         </div>
         <div class="two columns">
           <h4 id="vs">VS.</h4>
@@ -522,7 +517,7 @@
               var flag2 = allflags2[Math.floor(Math.random() * allflags2.length)];
               document.getElementById("flag2").innerHTML =
                 '<p>' + flag2.text + '</p>' +
-                '<img src="' + flag2.img + '">';
+                '<a href="" onclick="function()"><img src="' + flag2.img + '"></a>';
 
             })();
           </script>
