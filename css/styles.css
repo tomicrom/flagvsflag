@@ -208,6 +208,9 @@ img {
 
 .versus img {
 	max-width: 100%;
+	border: solid;
+    border-color: #EFEFEF;
+    border-width: 5px;
 	}
 
 .izq{
