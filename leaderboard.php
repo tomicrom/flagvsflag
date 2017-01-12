@@ -146,8 +146,8 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns cta">
-          <a class="button grande" href="index.html"><img src="images/ribbon.svg" alt="">GO BACK AND CONTINUE CHOOSING FLAGS! <img src="images/ribbon.svg" alt=""></a>
-          <a class="button chico" href="index.html"><img src="images/ribbon.svg" alt=""><strong> BACK TO THE FLAGS</strong> <img src="images/ribbon.svg" alt=""></a>
+          <a class="button grande" href="index.php"><img src="images/ribbon.svg" alt="">GO BACK AND CONTINUE CHOOSING FLAGS! <img src="images/ribbon.svg" alt=""></a>
+          <a class="button chico" href="index.php"><img src="images/ribbon.svg" alt=""><strong> BACK TO THE FLAGS</strong> <img src="images/ribbon.svg" alt=""></a>
         </div>  
       </div>
       <div class="row">
