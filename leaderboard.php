@@ -104,7 +104,7 @@
     <div class="container">
       <div class="row">
         <div class="eight columns offset-by-two">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed aut dolore magni corrupti. Debitis minus officiis magni, laborum! Unde impedit similique delectus voluptatibus necessitatibus a atque, debitis dolores nulla.</p>
+          <p></p>
         </div>  
   
         <div class="eight columns offset-by-two">
