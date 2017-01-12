@@ -123,7 +123,7 @@
                   {
                 ?>
                 <tr>
-                  <td><?php echo $res['paises.country']; ?></td>
+                  <td><?php echo $res['country']; ?></td>
                   <td><img src="images/flags/<?php echo $res['file']; ?>" alt=""></td>
                   <td><?php echo $res[0]; ?></td>
                 </tr>
