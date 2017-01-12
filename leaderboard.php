@@ -1,5 +1,9 @@
 <?php
   require_once("config/connection.php");
+  $query = mysql_query("select count(votes.id), paises.country, paises.file from paises
+                        inner join votes on paises.id = votes.id_flag
+                        group by paises.country
+                        order by count(votes.id) desc");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +12,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Flag vs. Flag</title>
+  <title>Leaderboard - Flag vs. Flag</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -19,24 +23,6 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $.post("flags.php", function(data){
-        $("#main").html(data);
-      });
-    });
-
-    function voteFlag(flag)
-    {
-      $.post("flags.php",{flag:flag}, function(data){
-        $("#main").html(data);
-      });
-    }
-  </script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -108,25 +94,50 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h2>Pick the <strong>best flag design</strong> of the two</h2>
+          <h2>Leaderboard</h2>
         </div>  
       </div>
     </div>
   </section>
 
-  <!-- Versus
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class="versus">
-    <div class="container"> 
-      <div class="row" id="main">
-        <div class="five columns izq" id="flag1">
-            
-           
-                    
-        </div>
+    <section class="content">
+    <div class="container">
+      <div class="row">
+        <div class="eight columns offset-by-two">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed aut dolore magni corrupti. Debitis minus officiis magni, laborum! Unde impedit similique delectus voluptatibus necessitatibus a atque, debitis dolores nulla.</p>
+        </div>  
+  
+        <div class="eight columns offset-by-two">
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Flag</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+                
+                <tbody>
+                <?php
+                  while($res = mysql_fetch_array($query))
+                  {
+                ?>
+                <tr>
+                  <td><?php echo $res['paises.country']; ?></td>
+                  <td><img src="images/flags/<?php echo $res['file']; ?>" alt=""></td>
+                  <td><?php echo $res[0]; ?></td>
+                </tr>
+                <?php } ?>
+                
+
+            </tbody>
+          </table>
+        </div>  
+
       </div>
     </div>
   </section>
+
  
 
   <!-- Go to Ranking
@@ -135,8 +146,8 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns cta">
-          <a class="button grande" href="leaderboard.html"><img src="images/ribbon.svg" alt="">CHECK THE <strong>LEADERBOARD</strong> RIGHT NOW! <img src="images/ribbon.svg" alt=""></a>
-          <a class="button chico" href="leaderboard.html"><img src="images/ribbon.svg" alt=""><strong> LEADERBOARD</strong> <img src="images/ribbon.svg" alt=""></a>
+          <a class="button grande" href="index.html"><img src="images/ribbon.svg" alt="">GO BACK AND CONTINUE CHOOSING FLAGS! <img src="images/ribbon.svg" alt=""></a>
+          <a class="button chico" href="index.html"><img src="images/ribbon.svg" alt=""><strong> BACK TO THE FLAGS</strong> <img src="images/ribbon.svg" alt=""></a>
         </div>  
       </div>
       <div class="row">
@@ -161,7 +172,6 @@
       </div>        
     </div>
   </section>
-
 <!-- GOOGLE ANALYTICS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
