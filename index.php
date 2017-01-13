@@ -9,8 +9,33 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Flag vs. Flag</title>
-  <meta name="description" content="">
+  <meta name="description" content="The battle for the best flag design has begun">
   <meta name="author" content="">
+
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Flag vs. Flag">
+  <meta itemprop="description" content="The battle for the best flag design has begun">
+  <meta itemprop="image" content="http://i.imgur.com/gXtKWha.png">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@tomicrom">
+  <meta name="twitter:title" content="Flag vs. Flag">
+  <meta name="twitter:description" content="The battle for the best flag design has begun. Start voting!">
+  <meta name="twitter:creator" content="@tomicrom">
+  <meta name="twitter:image" content="http://i.imgur.com/gXtKWha.png">
+
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Flag vs. Flag" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://flagvsflag.com/" />
+  <meta property="og:image" content="http://i.imgur.com/gXtKWha.png" />
+  <meta property="og:description" content="The battle for the best flag design has begun. Start voting!" />
+  <meta property="og:site_name" content="Flag vs. Flag" />
+
+
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
