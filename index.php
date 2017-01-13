@@ -138,6 +138,7 @@
         <div class="twelve columns cta">
           <a class="button grande" href="leaderboard.php"><img src="images/ribbon.svg" alt="">CHECK THE <strong>LEADERBOARD</strong> RIGHT NOW! <img src="images/ribbon.svg" alt=""></a>
           <a class="button chico" href="leaderboard.php"><img src="images/ribbon.svg" alt=""><strong> LEADERBOARD</strong> <img src="images/ribbon.svg" alt=""></a>
+          <a class="button chico" href="about.html"><img src="images/ribbon.svg" alt=""><strong> ABOUT</strong> <img src="images/ribbon.svg" alt=""></a>
         </div>  
       </div>
       <div class="row">
