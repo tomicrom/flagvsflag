@@ -9,8 +9,33 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Flag vs. Flag</title>
-  <meta name="description" content="">
+  <meta name="description" content="The battle for the best flag design has begun">
   <meta name="author" content="">
+
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Flag vs. Flag">
+  <meta itemprop="description" content="The battle for the best flag design has begun">
+  <meta itemprop="image" content="http://i.imgur.com/gXtKWha.png">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@tomicrom">
+  <meta name="twitter:title" content="Flag vs. Flag">
+  <meta name="twitter:description" content="The battle for the best flag design has begun. Start voting!">
+  <meta name="twitter:creator" content="@tomicrom">
+  <meta name="twitter:image" content="http://i.imgur.com/gXtKWha.png">
+
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Flag vs. Flag" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://flagvsflag.com/" />
+  <meta property="og:image" content="http://i.imgur.com/gXtKWha.png" />
+  <meta property="og:description" content="The battle for the best flag design has begun. Start voting!" />
+  <meta property="og:site_name" content="Flag vs. Flag" />
+
+
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -138,20 +163,18 @@
         <div class="twelve columns cta">
           <a class="button grande" href="leaderboard.php"><img src="images/ribbon.svg" alt="">CHECK THE <strong>LEADERBOARD</strong> RIGHT NOW! <img src="images/ribbon.svg" alt=""></a>
           <a class="button chico" href="leaderboard.php"><img src="images/ribbon.svg" alt=""><strong> LEADERBOARD</strong> <img src="images/ribbon.svg" alt=""></a>
+          <a class="button chico" href="about.html"><img src="images/ribbon.svg" alt=""><strong> ABOUT</strong> <img src="images/ribbon.svg" alt=""></a>
         </div>  
       </div>
       <div class="row">
         <div class="twelve columns">
       <ul class="share-buttons">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&t=FLAG%20vs.%20FLAG" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
-            <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&text=FLAG%20vs.%20FLAG:%20http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&via=tomicrom" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
-            <li><a href="https://plus.google.com/share?url=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
-            <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&t=FLAG%20vs.%20FLAG&s=" target="_blank" title="Post to Tumblr"><img src="images/flat_web_icon_set/color/Tumblr.png"></a></li>
-            <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&description=Vote%20for%20the%20best%20designed%20country%20flag.%20Check%20the%20leaderboard%20to%20see%20who%20is%20on%20the%20top." target="_blank" title="Pin it"><img src="images/flat_web_icon_set/color/Pinterest.png"></a></li>
-            <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&title=FLAG%20vs.%20FLAG" target="_blank" title="Submit to Reddit"><img src="images/flat_web_icon_set/color/Reddit.png"></a></li>
-            <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag&title=FLAG%20vs.%20FLAG&summary=Vote%20for%20the%20best%20designed%20country%20flag.%20Check%20the%20leaderboard%20to%20see%20who%20is%20on%20the%20top.&source=http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag" target="_blank" title="Share on LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
-            <li><a href="mailto:?subject=FLAG%20vs.%20FLAG&body=Vote%20for%20the%20best%20designed%20country%20flag.%20Check%20the%20leaderboard%20to%20see%20who%20is%20on%20the%20top.:%20http%3A%2F%2Ftomicrom.github.io%2Fflagvsflag" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
-          </ul>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fflagvsflag.com&t=%23FlagvsFlag%20-%20Vote%20for%20the%20best%20flag%20design." title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/flat_web_icon_set/color/Facebook.png"></a></li>
+        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fflagvsflag.com&text=%23FlagvsFlag%20-%20Vote%20for%20the%20best%20flag%20design.:%20http%3A%2F%2Fflagvsflag.com" target="_blank" title="Tweet"><img alt="Tweet" src="images/flat_web_icon_set/color/Twitter.png"></a></li>
+        <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fflagvsflag.com&t=%23FlagvsFlag%20-%20Vote%20for%20the%20best%20flag%20design.&s=" target="_blank" title="Post to Tumblr"><img alt="Post to Tumblr" src="images/flat_web_icon_set/color/Tumblr.png"></a></li>
+        <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fflagvsflag.com&title=%23FlagvsFlag%20-%20Vote%20for%20the%20best%20flag%20design." target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="images/flat_web_icon_set/color/Reddit.png"></a></li>
+        <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fflagvsflag.com&title=%23FlagvsFlag%20-%20Vote%20for%20the%20best%20flag%20design.&summary=Start%20voting%20now%20and%20let%C2%B4s%20find%20out%20which%20one%20is%20on%20top.&source=http%3A%2F%2Fflagvsflag.com" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
+      </ul>
           
         </div>  
       </div>

@@ -233,6 +233,13 @@ img {
 	margin: 10px;
 }
 
+td img {
+	
+	border: solid;
+    border-color: #EFEFEF;
+    border-width: 3px;
+	}
+
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
