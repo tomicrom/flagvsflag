@@ -55,9 +55,9 @@
       });
     });
 
-    function voteFlag(flag)
+    function voteFlag(flag, hash)
     {
-      $.post("flags.php",{flag:flag}, function(data){
+      $.post("flags.php",{flag:flag, hash:hash}, function(data){
         $("#main").html(data);
       });
     }
